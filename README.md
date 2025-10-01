@@ -25,12 +25,3 @@ A simple demo application built to practice CI/CD pipelines using GitHub Actions
 
 The GitHub Actions workflow (`.github/workflows/main.yml`) is triggered on each push or pull request to the `main` branch.
 
-### CI Steps:
-- Checkout code
-- Install dependencies
-- Run linting and tests
-
-### CD Steps:
-- Build the app
-- Deploy to staging environment (or output to build folder)
-- Optional: Send notification (e.g., Slack, email)
